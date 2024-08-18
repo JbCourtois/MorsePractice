@@ -6,8 +6,7 @@ from messages import read_and_process_file
 
 
 if __name__ == "__main__":
-    file_path = os.path.abspath(os.path.dirname(__file__))
-    paragraphs = read_and_process_file(f'{file_path}/extraits.txt')
+    paragraphs = read_and_process_file(f'Ressources/extraits.txt')
     random.shuffle(paragraphs)
 
     init_transmission()
