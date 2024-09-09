@@ -5,7 +5,7 @@ import time
 
 
 freq = 550  # Hz
-dotLength = 40  # milliseconds
+dotLength = 150  # milliseconds
 
 
 pygame.mixer.init(frequency=44100)
